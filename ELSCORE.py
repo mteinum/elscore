@@ -1,10 +1,10 @@
-#   ELSCORE.py
+# ELSCORE.py
 #
-#	Texas Instrument TI-84 Plus CE-T Python Edition
+# Texas Instrument TI-84 Plus CE-T Python Edition
 #
-#	X,Y for aa bestemme skuddverdi
-#	morten.teinum@gmail.com
-#	2020-10-30: Rev 1
+# X,Y for aa bestemme skuddverdi
+# morten.teinum@gmail.com
+# 2020-10-30: Rev 1
 
 import math
 
@@ -32,25 +32,9 @@ r = math.sqrt(x * x + y * y)
 print("radius", round(r, 3))
 
 # 9,9 -> 0
-score_table = [
-	0.25,
-	0.80,
-	2.78,
-	2.9825,
-	5.4,
-	5.28,
-	5.4825,
-]
 # 10,9 -> 10,0
-score_table_x = [
-	0.25,
-	0.80,
-	2.5,
-	2.5,
-	5,
-	4,
-	4
-]
+score_table   = [ 0.25, 0.80, 2.78, 2.9825, 5.4, 5.28, 5.4825 ]
+score_table_x = [ 0.25, 0.80, 2.50, 2.5000, 5.0, 4.00, 4.0000 ]
 
 index = 0
 current_r = score_table[p]
