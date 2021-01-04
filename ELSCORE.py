@@ -22,9 +22,9 @@ for i in range(len(programs)):
   print("{}: {}".format(i, programs[i]))
 
 # what to do
-p=int(input("Program: "))
-x=float(input("X: "))
-y=float(input("Y: "))
+p = int(input("Program: "))
+x = float(input("X: "))
+y = float(input("Y: "))
 
 # calulate radius
 r = math.sqrt(x * x + y * y)
